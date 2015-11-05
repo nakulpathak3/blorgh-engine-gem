@@ -8,10 +8,10 @@ Gem::Specification.new do |s|
   s.name        = "blorgh"
   s.version     = Blorgh::VERSION
   s.authors     = ["Nakul Pathak"]
-  s.email       = ["nakul.pathak@shopify.com"]
+  s.email       = ["nakulpathak3@hotmail.com"]
   s.homepage    = "https://nakulpathak.com"
-  s.summary     = "Summary of Blorgh."
-  s.description = "Description of Blorgh."
+  s.summary     = "Add blog posts and comments to any Rails app."
+  s.description = "Uses basic scaffolding to add ability to post and comment through a Rails Engine."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.rdoc"]
