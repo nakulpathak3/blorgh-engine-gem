@@ -1,4 +1,5 @@
 module Blorgh
-  class ApplicationController < ActionController::Base
+  class ApplicationController < ::ApplicationController 
+    helper Rails.application.routes.url_helpers
   end
 end
