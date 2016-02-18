@@ -7,6 +7,7 @@ module Blorgh
     before_save :set_author
 
     has_many :comments
+    has_many :tags
 
     private
 

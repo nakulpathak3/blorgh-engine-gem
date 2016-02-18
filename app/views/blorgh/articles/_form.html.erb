@@ -26,6 +26,10 @@
     <%= f.text_area :text %>
   </div>
 
+  <% f.fields_for :tags do |tag_fields| %>
+    Tags: <%= tag_fields.text_field :tag_name %>
+  <% end %>
+
   <div class="actions">
     <%= f.submit %>
   </div>
